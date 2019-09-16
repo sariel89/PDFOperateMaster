@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA9A6DD923278D4300C11E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A6DD823278D4300C11E1D /* AppDelegate.swift */; };
+		EA9A6DDB23278D4300C11E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A6DDA23278D4300C11E1D /* ViewController.swift */; };
+		EA9A6DDD23278D4600C11E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA9A6DDC23278D4600C11E1D /* Assets.xcassets */; };
+		EA9A6DE023278D4600C11E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9A6DDE23278D4600C11E1D /* Main.storyboard */; };
+		EA9A6DEC23278D4600C11E1D /* PDFOperateMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A6DEB23278D4600C11E1D /* PDFOperateMasterTests.swift */; };
+		EA9A6DF723278D4600C11E1D /* PDFOperateMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A6DF623278D4600C11E1D /* PDFOperateMasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA9A6DE823278D4600C11E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9A6DCD23278D4300C11E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9A6DD423278D4300C11E1D;
+			remoteInfo = PDFOperateMaster;
+		};
+		EA9A6DF323278D4600C11E1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA9A6DCD23278D4300C11E1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9A6DD423278D4300C11E1D;
+			remoteInfo = PDFOperateMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA9A6DD523278D4300C11E1D /* PDFOperateMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFOperateMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9A6DD823278D4300C11E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA9A6DDA23278D4300C11E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA9A6DDC23278D4600C11E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA9A6DDF23278D4600C11E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA9A6DE123278D4600C11E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9A6DE223278D4600C11E1D /* PDFOperateMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFOperateMaster.entitlements; sourceTree = "<group>"; };
+		EA9A6DE723278D4600C11E1D /* PDFOperateMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFOperateMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9A6DEB23278D4600C11E1D /* PDFOperateMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFOperateMasterTests.swift; sourceTree = "<group>"; };
+		EA9A6DED23278D4600C11E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9A6DF223278D4600C11E1D /* PDFOperateMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFOperateMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA9A6DF623278D4600C11E1D /* PDFOperateMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFOperateMasterUITests.swift; sourceTree = "<group>"; };
+		EA9A6DF823278D4600C11E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9A6DD223278D4300C11E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9A6DE423278D4600C11E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9A6DEF23278D4600C11E1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA9A6DCC23278D4300C11E1D = {
+			isa = PBXGroup;
+			children = (
+				EA9A6DD723278D4300C11E1D /* PDFOperateMaster */,
+				EA9A6DEA23278D4600C11E1D /* PDFOperateMasterTests */,
+				EA9A6DF523278D4600C11E1D /* PDFOperateMasterUITests */,
+				EA9A6DD623278D4300C11E1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9A6DD623278D4300C11E1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A6DD523278D4300C11E1D /* PDFOperateMaster.app */,
+				EA9A6DE723278D4600C11E1D /* PDFOperateMasterTests.xctest */,
+				EA9A6DF223278D4600C11E1D /* PDFOperateMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA9A6DD723278D4300C11E1D /* PDFOperateMaster */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A6DD823278D4300C11E1D /* AppDelegate.swift */,
+				EA9A6DDA23278D4300C11E1D /* ViewController.swift */,
+				EA9A6DDC23278D4600C11E1D /* Assets.xcassets */,
+				EA9A6DDE23278D4600C11E1D /* Main.storyboard */,
+				EA9A6DE123278D4600C11E1D /* Info.plist */,
+				EA9A6DE223278D4600C11E1D /* PDFOperateMaster.entitlements */,
+			);
+			path = PDFOperateMaster;
+			sourceTree = "<group>";
+		};
+		EA9A6DEA23278D4600C11E1D /* PDFOperateMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A6DEB23278D4600C11E1D /* PDFOperateMasterTests.swift */,
+				EA9A6DED23278D4600C11E1D /* Info.plist */,
+			);
+			path = PDFOperateMasterTests;
+			sourceTree = "<group>";
+		};
+		EA9A6DF523278D4600C11E1D /* PDFOperateMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA9A6DF623278D4600C11E1D /* PDFOperateMasterUITests.swift */,
+				EA9A6DF823278D4600C11E1D /* Info.plist */,
+			);
+			path = PDFOperateMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9A6DD423278D4300C11E1D /* PDFOperateMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9A6DFB23278D4600C11E1D /* Build configuration list for PBXNativeTarget "PDFOperateMaster" */;
+			buildPhases = (
+				EA9A6DD123278D4300C11E1D /* Sources */,
+				EA9A6DD223278D4300C11E1D /* Frameworks */,
+				EA9A6DD323278D4300C11E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFOperateMaster;
+			productName = PDFOperateMaster;
+			productReference = EA9A6DD523278D4300C11E1D /* PDFOperateMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA9A6DE623278D4600C11E1D /* PDFOperateMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9A6DFE23278D4600C11E1D /* Build configuration list for PBXNativeTarget "PDFOperateMasterTests" */;
+			buildPhases = (
+				EA9A6DE323278D4600C11E1D /* Sources */,
+				EA9A6DE423278D4600C11E1D /* Frameworks */,
+				EA9A6DE523278D4600C11E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9A6DE923278D4600C11E1D /* PBXTargetDependency */,
+			);
+			name = PDFOperateMasterTests;
+			productName = PDFOperateMasterTests;
+			productReference = EA9A6DE723278D4600C11E1D /* PDFOperateMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA9A6DF123278D4600C11E1D /* PDFOperateMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9A6E0123278D4600C11E1D /* Build configuration list for PBXNativeTarget "PDFOperateMasterUITests" */;
+			buildPhases = (
+				EA9A6DEE23278D4600C11E1D /* Sources */,
+				EA9A6DEF23278D4600C11E1D /* Frameworks */,
+				EA9A6DF023278D4600C11E1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA9A6DF423278D4600C11E1D /* PBXTargetDependency */,
+			);
+			name = PDFOperateMasterUITests;
+			productName = PDFOperateMasterUITests;
+			productReference = EA9A6DF223278D4600C11E1D /* PDFOperateMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9A6DCD23278D4300C11E1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					EA9A6DD423278D4300C11E1D = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					EA9A6DE623278D4600C11E1D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EA9A6DD423278D4300C11E1D;
+					};
+					EA9A6DF123278D4600C11E1D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = EA9A6DD423278D4300C11E1D;
+					};
+				};
+			};
+			buildConfigurationList = EA9A6DD023278D4300C11E1D /* Build configuration list for PBXProject "PDFOperateMaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9A6DCC23278D4300C11E1D;
+			productRefGroup = EA9A6DD623278D4300C11E1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9A6DD423278D4300C11E1D /* PDFOperateMaster */,
+				EA9A6DE623278D4600C11E1D /* PDFOperateMasterTests */,
+				EA9A6DF123278D4600C11E1D /* PDFOperateMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9A6DD323278D4300C11E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9A6DDD23278D4600C11E1D /* Assets.xcassets in Resources */,
+				EA9A6DE023278D4600C11E1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9A6DE523278D4600C11E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9A6DF023278D4600C11E1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9A6DD123278D4300C11E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9A6DDB23278D4300C11E1D /* ViewController.swift in Sources */,
+				EA9A6DD923278D4300C11E1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9A6DE323278D4600C11E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9A6DEC23278D4600C11E1D /* PDFOperateMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9A6DEE23278D4600C11E1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9A6DF723278D4600C11E1D /* PDFOperateMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA9A6DE923278D4600C11E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9A6DD423278D4300C11E1D /* PDFOperateMaster */;
+			targetProxy = EA9A6DE823278D4600C11E1D /* PBXContainerItemProxy */;
+		};
+		EA9A6DF423278D4600C11E1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA9A6DD423278D4300C11E1D /* PDFOperateMaster */;
+			targetProxy = EA9A6DF323278D4600C11E1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA9A6DDE23278D4600C11E1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA9A6DDF23278D4600C11E1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA9A6DF923278D4600C11E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA9A6DFA23278D4600C11E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EA9A6DFC23278D4600C11E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PDFOperateMaster/PDFOperateMaster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R32GG63CFC;
+				INFOPLIST_FILE = PDFOperateMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yit.PDFOperateMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EA9A6DFD23278D4600C11E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PDFOperateMaster/PDFOperateMaster.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R32GG63CFC;
+				INFOPLIST_FILE = PDFOperateMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yit.PDFOperateMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EA9A6DFF23278D4600C11E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R32GG63CFC;
+				INFOPLIST_FILE = PDFOperateMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yit.PDFOperateMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFOperateMaster.app/Contents/MacOS/PDFOperateMaster";
+			};
+			name = Debug;
+		};
+		EA9A6E0023278D4600C11E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R32GG63CFC;
+				INFOPLIST_FILE = PDFOperateMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yit.PDFOperateMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFOperateMaster.app/Contents/MacOS/PDFOperateMaster";
+			};
+			name = Release;
+		};
+		EA9A6E0223278D4600C11E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R32GG63CFC;
+				INFOPLIST_FILE = PDFOperateMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yit.PDFOperateMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PDFOperateMaster;
+			};
+			name = Debug;
+		};
+		EA9A6E0323278D4600C11E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R32GG63CFC;
+				INFOPLIST_FILE = PDFOperateMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yit.PDFOperateMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PDFOperateMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9A6DD023278D4300C11E1D /* Build configuration list for PBXProject "PDFOperateMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9A6DF923278D4600C11E1D /* Debug */,
+				EA9A6DFA23278D4600C11E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9A6DFB23278D4600C11E1D /* Build configuration list for PBXNativeTarget "PDFOperateMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9A6DFC23278D4600C11E1D /* Debug */,
+				EA9A6DFD23278D4600C11E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9A6DFE23278D4600C11E1D /* Build configuration list for PBXNativeTarget "PDFOperateMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9A6DFF23278D4600C11E1D /* Debug */,
+				EA9A6E0023278D4600C11E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9A6E0123278D4600C11E1D /* Build configuration list for PBXNativeTarget "PDFOperateMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9A6E0223278D4600C11E1D /* Debug */,
+				EA9A6E0323278D4600C11E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9A6DCD23278D4300C11E1D /* Project object */;
+}
